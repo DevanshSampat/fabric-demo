@@ -2,6 +2,7 @@ import logo from "./logo.svg"
 import "./App.css"
 import * as fabric from "fabric"
 import { useRef } from "react"
+import tshirtImage from "./images/tshirt-template.jpg"
 
 function App() {
   const canvasref = useRef(null);
@@ -31,29 +32,39 @@ function App() {
   }
   return (
     <div className="container">
+
+      <img
+        src={tshirtImage}
+      ></img>
+
       <input
         type="file"
         accept="image/*"
         label="Add Image"
         style={{
-          zIndex: 25,
           position: "absolute",
-          top: "25%",
-          left: "25%",
+          zIndex: 25,
+          top: "350px",
+          left: "200px",
         }}
         onChange={handleAddImage}
       />
-      
-      <canvas
-        ref={canvasref}
-        width="300"
-        height="300"
-        style={{
-          position: "absolute",
-          top: "0%",
-          left: "-17%",
-        }}
-      />
+
+      <div style={{
+        position: "absolute",
+        zIndex: 30,
+        top: "400px",
+        left: "195px",
+      }}>
+        <canvas
+          ref={canvasref}
+          width="300px"
+          height="300px"
+          style={{
+            border: "1px solid white",
+          }}
+        />
+      </div>
     </div>
   )
 }
