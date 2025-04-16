@@ -1,0 +1,100 @@
+{
+    "components": [
+        {
+            "id": "front",
+            "label": "Front",
+            "image": "https://github.com/DevanshSampat/fabric-demo/releases/download/black_tshirt/black_tshirt_front.png",
+            "inputStyle": {
+                "position": "absolute",
+                "zIndex": 30,
+                "top": "296px",
+                "left": "406px",
+                "color": "white"
+            },
+            "canvasStyle": {
+                "zIndex": 30
+            },
+            "canvasHolderStyle": {
+                "position": "absolute",
+                "zIndex": 25,
+                "top": "360px",
+                "left": "279px",
+                "width": "458px",
+                "height": "458px",
+                "border": "1px solid white"
+            }
+        },
+        {
+            "id": "left_sleeve",
+            "label": "Left Sleeve",
+            "image": "https://github.com/DevanshSampat/fabric-demo/releases/download/black_tshirt/black_tshirt_left_sleeve.png",
+            "inputStyle": {
+                "position": "absolute",
+                "zIndex": 30,
+                "top": "200px",
+                "left": "1450px",
+                "color": "white"
+            },
+            "canvasStyle": {
+                "zIndex": 30
+            },
+            "canvasHolderStyle": {
+                "position": "absolute",
+                "zIndex": 25,
+                "top": "248px",
+                "left": "1475px",
+                "width": "150px",
+                "height": "150px",
+                "border": "1px solid white"
+            }
+        },
+        {
+            "id": "right_sleeve",
+            "label": "Right Sleeve",
+            "image": "https://github.com/DevanshSampat/fabric-demo/releases/download/black_tshirt/black_tshirt_right_sleeve.png",
+            "inputStyle": {
+                "position": "absolute",
+                "zIndex": 30,
+                "top": "200px",
+                "left": "2450px",
+                "color": "white"
+            },
+            "canvasStyle": {
+                "zIndex": 30
+            },
+            "canvasHolderStyle": {
+                "position": "absolute",
+                "zIndex": 25,
+                "top": "248px",
+                "left": "2468px",
+                "width": "150px",
+                "height": "150px",
+                "border": "1px solid white"
+            }
+        },
+        {
+            "id": "back",
+            "label": "Back",
+            "image": "https://github.com/DevanshSampat/fabric-demo/releases/download/black_tshirt/black_tshirt_back.png",
+            "inputStyle": {
+                "position": "absolute",
+                "zIndex": 30,
+                "top": "296px",
+                "left": "3485px",
+                "color": "white"
+            },
+            "canvasStyle": {
+                "zIndex": 30
+            },
+            "canvasHolderStyle": {
+                "position": "absolute",
+                "zIndex": 25,
+                "top": "360px",
+                "left": "3350px",
+                "width": "458px",
+                "height": "458px",
+                "border": "1px solid white"
+            }
+        }
+    ]
+}
