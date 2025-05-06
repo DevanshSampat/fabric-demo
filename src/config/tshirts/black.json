@@ -4,6 +4,7 @@
             "id": "front",
             "label": "Front",
             "image": "https://github.com/DevanshSampat/fabric-demo/releases/download/black_tshirt/black_tshirt_front.png",
+            "imageWidthScale": "0.4",
             "inputStyle": {
                 "position": "absolute",
                 "zIndex": 30,
@@ -15,18 +16,17 @@
                 "zIndex": 30
             },
             "canvasHolderStyle": {
-                "position": "absolute",
                 "zIndex": 25,
-                "top": "360px",
-                "left": "279px",
-                "width": "458px",
-                "height": "458px",
                 "border": "1px solid white"
-            }
+            },
+            "canvasWidthScale": "0.18",
+            "canvasAspectRatio": "1",
+            "canvasMarginTopScale": "0.05"
         },
         {
             "id": "left_sleeve",
             "label": "Left Sleeve",
+            "imageWidthScale": "0.4",
             "image": "https://github.com/DevanshSampat/fabric-demo/releases/download/black_tshirt/black_tshirt_left_sleeve.png",
             "inputStyle": {
                 "position": "absolute",
@@ -46,11 +46,16 @@
                 "width": "150px",
                 "height": "150px",
                 "border": "1px solid white"
-            }
+            },
+            "canvasWidthScale": "0.05",
+            "canvasAspectRatio": "1",
+            "canvasMarginBottomScale": "0.14",
+            "canvasMarginLeftScale":"0.01"
         },
         {
             "id": "right_sleeve",
             "label": "Right Sleeve",
+            "imageWidthScale": "0.4",
             "image": "https://github.com/DevanshSampat/fabric-demo/releases/download/black_tshirt/black_tshirt_right_sleeve.png",
             "inputStyle": {
                 "position": "absolute",
@@ -70,11 +75,16 @@
                 "width": "150px",
                 "height": "150px",
                 "border": "1px solid white"
-            }
+            },
+            "canvasWidthScale": "0.05",
+            "canvasAspectRatio": "1",
+            "canvasMarginBottomScale": "0.14",
+            "canvasMarginRightScale":"0.01"
         },
         {
             "id": "back",
             "label": "Back",
+            "imageWidthScale": "0.4",
             "image": "https://github.com/DevanshSampat/fabric-demo/releases/download/black_tshirt/black_tshirt_back.png",
             "inputStyle": {
                 "position": "absolute",
@@ -94,7 +104,11 @@
                 "width": "458px",
                 "height": "458px",
                 "border": "1px solid white"
-            }
+            },
+            "canvasWidthScale": "0.18",
+            "canvasAspectRatio": "1",
+            "canvasMarginTopScale": "0.05"
+ 
         }
     ]
 }

@@ -1,0 +1,27 @@
+.canvas-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.canvas-background-image-area {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.control-area {
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0vh;
+    left: 70vw;
+}
